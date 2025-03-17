@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hamburger Menu Icon */
+.hamburger {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: #333;
+    transition: 0.4s;
+}
+
+/* Hamburger Menu Transition */
+.hamburger.active div:nth-child(1) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 8px;
+}
+
+.hamburger.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -8px;
+}
+
+/* Menu Display */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: orange;
+    padding: 20px;
+}
+
+.menu-item {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.price {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #e67e22;
+    font-size: 1.2em;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    /* Hide the navigation links by default */
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        z-index: 1;
+    }
+
+    /* Show nav links when active */
+    .nav-list.active {
+        display: flex;
+    }
+
+    /* Mobile nav item styles */
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    /* Hamburger menu bar styles */
+    .hamburger div {
+        background-color: white;
+    }
+}
