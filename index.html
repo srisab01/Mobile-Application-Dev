@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LingoBridge - Local Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" alt="Image" width="98" height="95">
+                    <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 
+                    7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 
+                    22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+                </svg>
+            </div>
+            <h1>Local Language Translator</h1>
+            <p class="tagline">Break language barriers instantly</p>
+            <button class="cta-button">Download Now</button>
+        </div>
+    </header>
+    
+    <div class="main">
+        <div class="container">
+            <section class="features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M20 5h-9.12L10 2H4c-1.1 0-2 .9-2 2v13c0 1.1.9 2 2 
+                            2h7l1 3h8c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zM7.17 14.59c-2.25
+                             0-4.09-1.83-4.09-4.09s1.83-4.09 4.09-4.09c1.04 0 1.99.37 
+                             2.74 1.07l.07.06-1.23 1.18-.06-.05c-.29-.27-.78-.59-1.52-.59-1.31 0-2.38 1.09-2.38 2.42s1.07 
+                             2.42 2.38 2.42c1.37 0 1.96-.87 2.12-1.46H7.08V9.91h3.95l.01.07c.04.21.05.4.05.61 0 2.35-1.61
+                              4-3.92 4zm6.03-1.71c.33.6.74 1.18 1.19 1.7l-.54.53-.65-2.23zm.77-.76h-.99l-.31-1.04h3.99s-.34 1.31-1.56 2.74c-.52-.62-.89-1.23-1.13-1.7z"/>
+                        </svg>
+                    </div>
+                    <h3>Local Language Translation</h3>
+                    <p>Instantly translate local languages with high accuracy using our advanced AI technology.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 
+                            6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 
+                            3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 
+                            1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.
+                            08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/>
+                        </svg>
+                    </div>
+                    <h3>Offline Mode</h3>
+                    <p>No internet needed! Translate on-the-go, even when you're offline or in remote areas.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 
+                            0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2
+                             12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 
+                             5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8z"/>
+                        </svg>
+                    </div>
+                    <h3>Voice Recognition</h3>
+                    <p>Speak naturally and get instant translations with our advanced voice recognition system.</p>
+                </div>
+            </section>
+            
+            <section class="demo">
+                <h2>Experience Seamless Translation</h2>
+                <div class="demo-container">
+                    <div class="demo-phone">
+                        <div class="demo-screen">
+                            <div class="demo-header">
+                                <h4>Local Language Translator</h4>
+                                <div class="lang-switch">
+                                    <span>EN</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                                        <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/>
+                                    </svg>
+                                    <span>NP</span>
+                                </div>
+                            </div>
+                            <div class="demo-chat">
+                                <div class="message sent">
+                                    Hello, where is the nearest bus station?
+                                    <div class="translation">नमस्ते, सबैभन्दा नजिकको बस स्टेसन कहाँ छ?</div>
+                                </div>
+                                <div class="message received">
+                                    दुई ब्लक सीधा जानुहोस् र दायाँ मोड्नुहोस्।
+                                    <div class="translation">Go straight two blocks and turn right.</div>
+                                </div>
+                                <div class="message sent">
+                                    Thank you! Is there a park nearby?
+                                    <div class="translation">धन्यवाद! नजिकै कुनै पार्क छ?</div>
+                                </div>
+                                <div class="message received">
+                                    हो, बस स्टेसनको छेउमा राम्रो पार्क छ।
+                                    <div class="translation">Yes, there's a nice park to the bus station.</div>
+                                </div>
+                            </div>
+                            <div class="demo-input">
+                                <input type="text" placeholder="Type your message...">
+                                <button class="send-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="testimonials">
+                <h2>What Our Users Say</h2>
+                <div class="testimonial-container">
+                    <div class="testimonial-slider">
+                        <div class="testimonial">
+                            <div class="testimonial-avatar">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">"This app saved my trip to Nepal! I could communicate with locals effortlessly and discover
+                                 places I would have missed otherwise."</p>
+                            <p class="testimonial-author">Sarah T., Travel Blogger</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <div class="slider-dot active"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                </div>
+            </section>
+            
+            <section class="download-section">
+                <h2>Download Local Language Translator Today</h2>
+                <p>Break language barriers and connect with people in Nepal.</p>
+                <div class="app-badges">
+                    <div class="app-badge">
+                            <path d="M17.9 2.318A5.002 5.002 0 0 1 22 7.32v9.357a5.002 
+                            5.002 0 0 1-4.1 4.994L12 24l-5.9-2.328A5.002 5.002 0 0 1 2 16.677V7.32A5.002 5.002 0 0 1 6.1 
+                            2.325L12 0l5.9 2.318zm-3.928 13.649L12 14.795l-1.972 1.172.53-2.22-1.777-1.574 2.342-.212L12 9.945l
+                            .877 1.816 2.342.212-1.777 1.574.53 2.22z"/>
+                        </svg>
+                        <img src="download.png" alt="Image" width="35" height="30">
+                        <div class="app-badge-text">
+                            <small>GET IT ON</small>
+                            <strong>Play Store</strong>
+                        </div>
+                    </div>
+                    <div class="app-badge">
+                            <path d="M16.462 8.583a2.915 2.915 0 0 0 1.271-2.43 2.968 2.968 0 0 0-1.603-2.59
+                             3.484 3.484 0 0 0-1.02-.314 7.571 7.571 0 0 0-1.29-.094 7.9 7.9 0 0 0-1.953.104c-.613.152-1.21.
+                             363-1.79.629-.18.08-.35.175-.513.284-.38.25-.72.545-1.03.864-.69.71-.97 1.14-1.431 2.12a9.13 9.13 0 0 0-.784
+                              2.288c-.38 1.96 0 4.008.964 5.785.637 1.85 1.732 3.421 3.762 4.37 2.002.931 4.216.794 5.65.47 1.543-.346 2.885-1.213
+                               3.989-2.548 1.12-1.423
+                               1.554-3.382 1.409-5.551-.117-1.755-.738-3.198-1.902-4.402-.112.006-.223.01-.334.015h-.395z"/>
+                        </svg>
+                        <img src="download.jpeg" alt="Image" width="35" height="35">
+                        <div class="app-badge-text">
+                            <small>DOWNLOAD ON THE</small>
+                            <strong>App Store</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <footer>
+                <p>&copy; 2025 Local Language Trans. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
